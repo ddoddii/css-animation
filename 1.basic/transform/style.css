@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'SuperMario';
+    src: url('SuperMarioBros-ov7d.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center; 
+}
+
+.title {
+    font-family: 'SuperMario', sans-serif;
+}
+
+.mario:hover {
+    transform : rotateX(60deg) rotateZ(30deg) translateY(-100px) scale(1.1)
+}
+
+
